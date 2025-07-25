@@ -11,8 +11,8 @@ A data analysis project exploring trends and insights in Netflix movies using Py
 Project Structure
 -----------------
 netflix-movies-analysis/
-├── netflix_titles.csv        # Main dataset used for analysis
-├── Netflix_Analysis.ipynb    # Jupyter notebook with all analysis and visualizations
+├── mymoviedb.csv        # Main dataset used for analysis
+├── movie_analysis.ipynb    # Jupyter notebook with all analysis and visualizations
 ├── .gitignore                # Files and directories ignored by Git
 ├── README.txt                # Project documentation (this file)
 
@@ -25,7 +25,7 @@ Features
 
 Technologies Used
 -----------------
-- Python 3.x
+- Python 3.10
 - Pandas
 - NumPy
 - Matplotlib
@@ -35,8 +35,8 @@ Technologies Used
 Dataset
 -------
 - Source: Netflix Movies Dataset on Kaggle
-- File: netflix_titles.csv
-- Description: Contains data about Netflix titles including type, title, director, cast, country, release year, rating, and more.
+- File: mymoviedb.csv
+- Description: Contains data about Netflix titles including 	Release_Date,Title,Overview,Popularity ,Vote_Count,	Vote_Average,	Original_Language,	Genre,	Poster_Url
 
 Getting Started
 ---------------
@@ -55,10 +55,20 @@ Getting Started
    pip freeze > requirements.txt
 
 4. Run the Notebook
-   jupyter notebook Netflix_Analysis.ipynb
+   jupyter notebook movie_analysis.ipynb
 
 Key Questions & Insights (with Visualizations)
 ---------------------------------------------
+
+
+Netflix is an American subscription-based video-on-demand streaming service that delivers a wide
+variety of TV shows, movies, documentaries, anime, and original content across multiple genres. 
+Founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California, it initially 
+operated as a DVD-by-mail rental service before transitioning to streaming in 2007. As of 2025, 
+Netflix is the world’s most-subscribed streaming platform, with over 300 million paid memberships 
+across more than 190 countries, offering content in multiple languages on internet-connected 
+devices such as smartphones, tablets, smart TVs, and gaming consoles
+
 The following analytical questions were explored and visualized in the notebook:
 
 1. What is the most frequent genre of movies released on Netflix?
