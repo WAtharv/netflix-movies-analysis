@@ -1,5 +1,9 @@
 
 Netflix Movies Analysis
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 =======================
 
 A data analysis project exploring trends and insights in Netflix movies using Python and Pandas. This project focuses on understanding popular genres, release years, movie durations, and other key attributes to derive meaningful patterns from Netflix's catalog.
